@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/profile_pic.png">
+    <link rel="shortcut icon" type="image/png" href="Icons/torii-gate.png">
+
+    
+</head>
+<body>
+    <nav id="desktop_nav">
+        <div class="nav_logo">Eva's Biography</div>
+        <div class="nav_menu_links">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievement">Achievement</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger_nav">
+        <div class="nav_logo">Eva's Biography</div>
+        <div class="hamburger_menu">
+            <div class="hamburger_menu_icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="hamburger_menu_links" onclick="toggleMenu()">
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievement">Achievement</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile_contents_container">
+            <div class="profile_pic_container"><img src="Images/Eva Profile Pic Crop 2 .jpg"></div>
+            <div class="profile_text_container">
+                <p class="p1"><span id="typewriter"></span></p>
+                <h1 class="name">Eva V. David</h1>
+                <p class="p2">Real Estate Agent</p>
+                <div class="button_containers">
+                    <button onclick="window.open('Resume/Eva Resume.pdf')">Resume</button>
+                </div>
+                <div class="social_containers">
+                    <a href="https://www.linkedin.com/in/evavdavid" target="_blank"><img src="Icons/linkedin.png"></a>
+                    <a href="https://wa.link/m9kunm" target="_blank"><img src="Icons/whatsapp.png"></a>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section id="about">
+        <p>Get To Know More</p>
+        <h1>About Me</h1>
+        <div class="education-container">
+            <!-- Master's Degree -->
+            <div class="education-box">
+                <img src="Images/Master's Degree 2.jpg" alt="Master's Degree">
+                <h2>Master's Degree in Applied Chemistry</h2>
+                <p>Niigata University Ikarashi Campus, Niigata Prefecture, Japan</p>
+            </div>
+        
+            <!-- Bachelor's Degree -->
+            <div class="education-box">
+                <img src="Images/Bachelor's Degree 2.jpg" alt="Bachelor's Degree">
+                <h2>Bachelor's Degree in Chemistry and Chemical Engineering</h2>
+                <p>Niigata University Ikarashi Campus, Niigata Prefecture, Japan</p>
+            </div>
+        
+            <!-- Diploma -->
+            <div class="education-box">
+                <img src="Images/Diploma 2.jpg" alt="Diploma">
+                <h2>Diploma in Material Engineering</h2>
+                <p>Ibaraki National Institute of Technology, Ibaraki Prefecture, Japan</p>
+            </div>
+        </div>
+        
+                <div class="about_text_container">
+                    <p>Hello, my name is Eva Vanessa David. I'm 28 years old from Miri, Sarawak.</p> 
+                    <p>I went to SM Sains Miri. Bahasa Melayu & Chemistry were two of my favorite</p> 
+                    <p>subjects. Happiness to me is having fulfillment in the things we do.</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hobbies">
+        <p>Discover My</p>
+        <h1>Hobbies, Favourite Book & Movie</h1>
+    
+        <div class="hobbies-container">
+            <!-- Hobbies Card -->
+            <div class="photo-card">
+                <img src="Images/Hobby Pic.jpg" alt="Hobby Image">
+                <div class="card-text">
+                    <h2>My Hobbies</h2>
+                    <p>I love coffee! I enjoy visiting cafes and trying their unique menu, especially pour-over coffee.</p>
+                </div>
+            </div>
+    
+            <!-- Favorite Book Card -->
+            <div class="photo-card">
+                <img src="Images/Hobby Pic 3.jpg" alt="The Dip by Seth Godin">
+                <div class="card-text">
+                    <h2>My Favourite Book</h2>
+                    <p><strong>Title:</strong> The Dip by Seth Godin</p>
+                    <p>A book that explains when quitting is the right choice and how persistence leads to success.</p>
+                </div>
+            </div>
+    
+            <!-- Favorite Movie Card -->
+            <div class="photo-card">
+                <img src="Images/Tenet.jpg" alt="Tenet Movie Poster">
+                <div class="card-text">
+                    <h2>My Favourite Movie</h2>
+                    <p><strong>Title:</strong> Tenet (2020), Directed by Christopher Nolan.</p>
+                    <p>A sci-fi thriller about time inversion and espionage, filled with mind-bending action.</p>
+                </div>
+            </div>
+        </div>
+            <!-- Title Above Video -->
+        <h2 class="hobbies-video-title">My Favourite Sport during Winter</h2>
+
+            <!-- Full-Width Video Section -->
+            <div class="hobbies-video-container">
+                <video width="100%" height="auto" controls>
+                    <source src="Videos/Eva Skiing Vid.mp4" type="video/mp4">
+
+                </video>
+            </div>
+    
+    
+    <section id="achievement">
+        <p>Explore My</p>
+        <h1>Achievement</h1>
+        <div class="achievement_contents_container">
+            <h2>Skills & Achievements</h2>
+            <div class="achievement_details_container">               
+                <article>
+                    <img src="Images/Eva Achievement Pic 3.jpg">
+                    <h3>Japanese Language Proficiency Test</h3>
+                    <p>(JLPT - N1 Level)</p>
+                </article>
+                <article>
+                    <img src="Images/Eva Degree Pic.jpg">
+                    <h3>Completed Advanced</h3>
+                    <h3>Business Japanese</h3>
+                    <h3>Communication Course</h3>
+                    <p>Experienced</p>
+                </article>
+                <article>
+                    <img src="Images/photo_2024-11-18_12-34-25.jpg">
+                    <h3>Grant Winner of Rotary</h3>
+                    <h3>Yoneyama Memorial</h3>
+                    <h3>Master Course</h3>
+                    <p>Scholarship</p>
+                </article>
+                <div class="additional_photos">
+                    <div class="photo_item">
+                        <img src="Images/Add Pic 1.jpg" alt="Additional Achievement Photo 1">
+                    </div>
+                    <div class="photo_item">
+                        <img src="Images/Add Pic 2.jpg" alt="Additional Achievement Photo 2">
+        </div>
+        </div>         
+    </section>
+    <section id="video-highlight">
+        <p>Watch My</p>
+        <h1>Video Highlight</h1>
+        <div class="fb-post-container">
+            <!-- Profile & Timestamp -->
+            <div class="fb-header">
+                <img src="Images/Eva Profile Pic Crop 2 .jpg" alt="Eva's Profile" class="fb-profile-pic">
+                <div class="fb-user-info">
+                    <p class="fb-name">Eva Vanessa David</p>
+                    <p class="fb-timestamp">December 8, 2024 &#8226; </p>
+                </div>
+            </div>
+            
+            <!-- Post Caption -->
+            <p class="fb-caption">Truly blessed to be featured in Nona TV3. In this segment, I shared 
+                a couple of unique places and cuisines in Niigata Prefecture, Japan. 
+                I feel really honoured when the TV host mentioned 'Anak Sarawak'.
+            </p>
+            
+            <!-- Video -->
+            <div class="fb-video-container">
+                <video width="100%" height="auto" controls>
+                    <source src="Videos/Eva Nona Vid.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <!-- Reactions & Buttons -->
+            <div class="fb-reactions">
+                <img src="Icons/Like.png" alt="Like"> 
+                <img src="Icons/Love.png" alt="Love"> 
+                <span class="reaction-count">1.2K</span>
+            </div>
+            
+        </div>
+    </section>
+    
+                    <a href="https://youtu.be/GYEgW0taI78?si=njdBY-y4hM9WJBvs" target="_blank">Check Out The Full Episode: </a>
+        </div>
+    </section>
+                    <section id="spotify">
+                        <p>Listen to My</p>
+                        <h1>Music</h1>
+                        <div class="spotify_contents_container">
+                            <iframe 
+                                src="https://open.spotify.com/embed/track/4E90upOUGrNLnY2EfN9OjS?utm_source=generator&theme=0" 
+                                width="300" 
+                                height="380" 
+                                frameborder="0" 
+                                allowtransparency="true" 
+                                allow="encrypted-media">
+                      </iframe>
+                            <!-- YouTube Embed -->
+                            <iframe 
+                            width="600" 
+                            height="380" 
+                            src="https://www.youtube.com/embed/n368oap95Mk?si=C-kO0adiclWAEkP_" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <!-- Text and Link Below Video -->
+                    <div class="youtube-link">
+                        <p>My first single, written by Depha Masterpiece.</p>
+                        <a href="https://www.youtube.com/@EvaVDavid" target="_blank">Visit my YouTube Channel</a>
+                    </div>
+                </section>
+                <section id="instagram-borders">
+                    <p>Here's some of my</p>
+                    <h1>Song Covers</h1>
+                    <div class="instagram-borders-container">
+                        <!-- Video Border 1 -->
+                        <div class="story-border">
+                            <video controls>
+                                <source src="Videos/Insta Vid 2.mp4" type="video/mp4">
+                                
+                            </video>
+                        </div>
+                        <!-- Video Border 2 -->
+                        <div class="story-border">
+                            <video controls>
+                                <source src="Videos/Insta vid 3.mp4" type="video/mp4">
+                               
+                            </video>
+                        </div>
+                        <!-- Video Border 3 -->
+                        <div class="story-border">
+                            <video controls>
+                                <source src="videos/Insta Vid 4.mp4" type="video/mp4">
+                                
+                            </video>
+                        </div>
+                    </div>
+                </section>
+                
+    <section id="gallery">
+      <p>Check Out My</p>
+      <h1>Gallery</h1>
+      <div class="gallery_contents_container">
+        
+          <!-- Collage 1 -->
+          <div class="hover-effect">
+              <div class="hover-effect">
+                  <img src="Images/Collage 1.jpg" alt="Collage Image 1">
+              </div>
+              <div class="hover-effect">
+                  <img src="Images/Collage 2.jpg" alt="Collage Image 2">
+              </div>
+              <div class="hover-effect">
+                  <img src="Images/Collage 3.jpg" alt="Collage Image 3">
+              </div>
+          </div>
+          <!-- Collage 2 -->
+          <div class="hover-effect">
+              <div class="hover-effect">
+                  <img src="Images/Collage 4.jpg" alt="Collage Image 4">
+              </div>
+              <div class="hover-effect">
+                  <img src="Images/Collage 5.jpg" alt="Collage Image 5">
+              </div>
+              <div class="hover-effect">
+                  <img src="Images/Collage 6.jpg" alt="Collage Image 6">
+              </div>
+          </div>
+          <!-- Collage 3 -->
+          <div class="hover-effect">
+              <div class="hover-effect">
+                  <img src="Images/Collage 7.jpg" alt="Collage Image 7">
+              </div>
+              <div class="hover-effect">
+                  <img src="Images/Collage 8.jpg" alt="Collage Image 8">
+              </div>
+              <div class="hover-effect">
+                  <img src="Images/Collage 9.jpg" alt="Collage Image 9">
+              </div>
+          </div>
+      </div>
+  </section>
+  <section id="contact">
+    <!-- Video Background -->
+    <video autoplay loop muted playsinline class="contact-video">
+        <source src="Videos/Contact Background.mp4" type="video/mp4">
+      
+    </video>
+
+    <!-- Dark Overlay -->
+    <div class="contact-overlay">
+        <div class="contact-content">
+            <div class="contact_about_container">
+                <div class="contact_details_container">
+                    <a href="mailto:eva.vdavid@gmail.com"><img src="Icons/email.png"></a>
+                    <p>eva.vdavid@gmail.com</p>
+                </div>
+                <div class="contact_details_container">
+                    <a href="https://www.facebook.com/evavanessadavid" target="_blank"><img src="Icons/facebook.webp"></a>
+                    <p>Eva V. David</p>
+                </div>
+                <div class="contact_details_container">
+                    <a href="https://www.linkedin.com/in/evavdavid" target="_blank"><img src="Icons/linkedin.png"></a>
+                    <p>My LinkedIn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <div id="date-time" class="minimal-date-time"></div>
+    <footer>
+        <div class="footer_contents_container">
+            <p>Eva Vanessa David &#169 2024 For Academic Purposes. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
